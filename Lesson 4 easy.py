@@ -36,4 +36,4 @@ f = [ random . randint (0 , 10 ) for _ in range ( 5 )]
 a1 = [el for el in f  if not (int(el)%3)]
 a2 = [el for el in f if not (int(el) < 0)]
 a3 = [el for el in f if (int(el)%4)]
-print (s
+print (set(a1+a2+a3))
